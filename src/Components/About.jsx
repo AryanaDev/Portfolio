@@ -17,8 +17,7 @@ const About = () => {
                     </p>
                     <br/>
                     <p className="text-white font-semibold justify-start text-left text-sm md:text-sm overflow-hidden">
-                        Greetings! I'm Aryana, a passionate front-end developer from Iran. In the past two years, I've been creating intuitive user experiences using React, JavaScript, HTML, CSS, TypeScript, and leveraging the power of Tailwind CSS. I'm dedicated to crafting visually stunning and robust websites. Let's create memorable online experiences together!
-                    </p>
+                        Greetings! I'm Aryana, a passionate front-end developer. In the past two years, I've been creating intuitive user experiences using React, JavaScript, HTML, CSS, and TypeScript, and leveraging the power of Tailwind CSS. I'm dedicated to crafting visually stunning and robust websites. Let's create memorable online experiences together! </p>
                 </div>
             </div>
         </div>

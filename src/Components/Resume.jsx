@@ -2,7 +2,7 @@ import React from "react";
 const Resume = () =>{
     return(
         <div name='resume' className=' w-full flex flex-col gap-12 sm:flex-col md:flex-col sm:min-w-fit md:min-w-fit items-center  justify-center mb-52'>
-            <div className="content mt-32">
+            <div className="content mt-10">
             <div className="planet">
                     <div className="ring"></div>
                     <div className="cover-ring"></div>
@@ -19,7 +19,7 @@ const Resume = () =>{
                 </div>
                 <p className='font-semibold'>ARYANA FRONTEND DEVELOPER</p>
             </div>
-            <div className='flex flex-col justify-center items-center mt-32 ml-[100px]'>
+            <div className='flex flex-col justify-center items-center mt-10 ml-[100px]'>
                 <div className="card">
                     <a className="social-link1" href='https://www.instagram.com/aryana.963/'>
                     <svg className="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
