@@ -8,7 +8,7 @@ const About = () => {
                 <div className="md:w-1/2 ">
                     <img src={Item1} alt="Portfolio Item"  className="w-full" />
                 </div>
-                <div className="md:w-1/2 p-4 mt-4 md:mt-0">
+                <div className="md:w-1/2 p-4 mt-4 md:mt-0 mb-16">
                     <p className=" font-semibold mt-0 md:mt-5 text-white text-2xl md:text-2xl">
                         Crafting Seamless Digital Experiences:
                         <span className="block text-white font-semibold text-left w-5/6">

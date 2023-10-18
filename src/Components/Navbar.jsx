@@ -3,6 +3,8 @@ import logo1 from '../Assets/logo1.png';
 import { Link } from 'react-scroll';
 
 const Nav = () => {
+
+
     let [open, setOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -10,9 +12,9 @@ const Nav = () => {
     };
 
     return (
-        <nav className="!fixed bg-[#242424] border-gray-200 dark:bg-gray-900 dark:border-gray-700 w-full">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 px-1">
-                <img src={logo1} className="w-[100px] h-[100px] mr-3" alt="Flowbite Logo" />
+        <nav name='navbar' className="bg-[#242424] border-gray-200 w-full top-0 left-0  ">
+            <div className="container max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 px-1 ">
+                <img src={logo1} className="w-[100px] h-[100px] bg-[#242424] mr-3" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
                 <button
                     onClick={toggleMenu}

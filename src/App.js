@@ -8,17 +8,16 @@ import Resume from "./Components/Resume";
 
 function App() {
   return (
-      <>
+      <div>
           <Navbar/>
         <div className='bg-[#242424] w-full min-h-screen '>
         <Home/>
-
         <About/>
         <Skills/>
           <Resume/>
           <Contact/>
         </div>
-      </>
+      </div>
   );
 }
 
