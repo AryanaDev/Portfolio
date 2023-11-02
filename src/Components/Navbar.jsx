@@ -19,7 +19,7 @@ const Nav = () => {
                 <button
                     onClick={toggleMenu}
                     type="button"
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="navbar-dropdown"
                     aria-expanded={open}
                 >
@@ -29,18 +29,18 @@ const Nav = () => {
                     </svg>
                 </button>
                 <div className={`bg-[#242424] w-full md:block md:w-auto ${open ? 'block' : 'hidden'}`} id="navbar-dropdown">
-                    <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 text-[#3182ce] rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#242424] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 text-[#3182ce] rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#242424] bg-[#242424]">
                         <li>
-                            <Link to="home" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#F9F871] rounded hover:bg-[#EFB200] md:hover:bg-transparent md:border-0 md:hover:text-[#EFB200] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">HOME</Link>
+                            <Link to="home" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#F9F871] rounded hover:bg-[#EFB200] md:hover:bg-transparent md:border-0 md:hover:text-[#EFB200] md:p-0 bg-[#242424]">HOME</Link>
                         </li>
                         <li>
-                            <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#00FFFF] rounded hover:bg-[#2119bf] md:hover:bg-transparent md:border-0 md:hover:text-[#13c7eb] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT</Link>
+                            <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#00FFFF] rounded hover:bg-[#2119bf] md:hover:bg-transparent md:border-0 md:hover:text-[#13c7eb] md:p-0 bg-[#242424]">ABOUT</Link>
                         </li>
                         <li>
-                            <Link to="skills" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#F9F871] rounded hover:bg-[#EFB200] md:hover:bg-transparent md:border-0 md:hover:text-[#EFB200] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">SKILLS</Link>
+                            <Link to="skills" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#F9F871] rounded hover:bg-[#EFB200] md:hover:bg-transparent md:border-0 md:hover:text-[#EFB200] md:p-0 bg-[#242424]">SKILLS</Link>
                         </li>
                         <li>
-                            <Link to="resume" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#00FFFF] rounded hover:bg-[#2119bf] md:hover:bg-transparent md:border-0 md:hover:text-[#13c7eb] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">RESUME</Link>
+                            <Link to="resume" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#00FFFF] rounded hover:bg-[#2119bf] md:hover:bg-transparent md:border-0 md:hover:text-[#13c7eb] md:p-0 bg-[#242424]">RESUME</Link>
                         </li>
                         <li>
                             <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="block py-2 pl-3 pr-4 text-[#F9F871] rounded hover:bg-[#EFB200] md:hover:bg-transparent md:border-0 md:hover:text-[#EFB200] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT</Link>

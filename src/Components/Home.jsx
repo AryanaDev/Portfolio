@@ -41,7 +41,7 @@ const Home = () => {
                     </li>
                 </ul>
             </div>
-            <div className='flex justify-center items-center mx-auto md:flex-row md:h-auto'>
+            <div className='flex justify-center items-center mx-auto md:flex-row md:h-auto '>
                 <main id="container">
 
                     <div className="dots">
