@@ -9,8 +9,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 const Home = () => {
 
     return(
-        <div name='home' className=' w-full h-screen flex flex-col justify-center items-center '>
-            <div className="ms-10 my-10 lg:text-7xl font-extrabold md:text-5xl sm:text-4xl  overflow-hidden ">
+        <div name='home' className=' w-full h-screen flex flex-col justify-center items-center overflow-hidden'>
+            <div className="ms-10 my-10 lg:text-7xl font-extrabold md:text-5xl sm:text-4xl  ">
                 <span className="animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent"> Hi, My Name Is ARYANA  </span>
             </div>
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

@@ -1,7 +1,7 @@
 import React from "react";
 const Resume = () =>{
     return(
-        <div name='resume' className=' w-full flex flex-col gap-12 sm:flex-col md:flex-col sm:min-w-fit md:min-w-fit items-center  justify-center mb-40'>
+        <div name='resume' className=' w-full flex flex-col gap-12 sm:flex-col md:flex-col sm:min-w-fit md:min-w-fit items-center  justify-center mb-40 overflow-x-hidden'>
             <div className="content mt-20">
             <div className="planet">
                     <div className="ring"></div>
